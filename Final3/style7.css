@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#valentine img{
+    width: 200px;
+}
+
+.valentine-content h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 0;
+}
+#cat_top {
+    position: absolute;
+    top: -140px;
+    left: 32%;
+}
+#cat_bottom {
+    position: absolute; 
+}
+.valentine-content {
+    background-color: pink;
+    padding: 16px 32px;
+    border-radius: 25px;
+    color: #fff;
+    text-shadow: 1px 1px 0 red;
+    font-weight: bold;
+    font-size: 12px;
+}

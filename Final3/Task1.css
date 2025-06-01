@@ -1,0 +1,53 @@
+.Task1 {
+  background-image: linear-gradient(to right, #11c086, #e3344c);
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 200px;
+  font-size: 62px;
+} 
+/* .wrapper {
+    background-color: rgb(45, 228, 45);
+    border: 10px dashed rgb(133, 92, 172);
+    height: 500px;
+    width: 500px;
+    margin: 200px auto;
+    border-radius: 50%;
+  }  */
+.blue1 {
+    background-color: blue;
+    border: 2px dashed yellow;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.yellow1 {
+    background-color: yellow;
+    border: 2px dashed blue;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.blue2 {
+    background-color: blue;
+    border: 2px dashed yellow;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.yellow2 {
+    background-color: yellow;
+    border: 2px dashed blue;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50%;
+}

@@ -1,0 +1,120 @@
+body {
+    background-image: linear-gradient(to right, rgb(209, 220, 48), rgb(255, 68, 0));
+    color: rgb(44, 220, 247);
+}
+header {
+    background-color: rgba(131, 242, 212, 0.873);
+    border-radius: 0 0 20px 20px;
+    top: 0;
+    position: sticky;
+}
+nav {
+    float: right;
+    line-height: 150px;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    color: rgb(219, 164, 12);
+    margin-right: 100px;
+    text-transform: uppercase;
+}
+.container {
+    width: 100%;
+    min-width: 1024px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.logo {
+    height: 160px;
+    float: left;
+}
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a:hover {
+    color: rgb(255, 226, 3);
+}
+.add-header {
+    color: rgb(0, 153, 255);
+    background-color: rgba(131, 242, 212, 0.873);
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.idea {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.idea-text {
+    font-size: 40px;
+    font-family: sans;
+    font-style: italic;
+    color: rgb(229, 175, 59);
+    margin: 50px 0;
+}
+.contact-button {
+    background: black;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+.articles {
+    float: left;
+    width: 65%;
+    padding: 10px;
+}
+article {
+    padding: 20px;
+    margin: 10px 0;
+}
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.article-text {
+    float: left;
+    width: 500px;
+}
+.heading {
+    font-size: 140px;
+}
+.description {
+    font-size: 20px;
+    color: rgba(155, 245, 154, 0.9);
+}
+.date {
+    font-size: 15px;
+    color: black;
+    margin-top: 5px;
+}
+.article-img {
+ height: 150px;
+ width: 150px;
+ background: gray;
+ float: right;
+} 
+.article-img img {
+    height: 150px;
+    width: 150px;
+}

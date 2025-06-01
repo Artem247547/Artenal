@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(227, 184, 12);
+    color: rgb(50, 46, 6);
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+
+.container {
+    height: 300px;
+    background-color: rgb(227, 145, 21);
+    color: rgb(235, 213, 12);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: flex-end;  */
+}
+
+.one {
+    background-color: rgb(162, 6, 37);
+    width: 170px;
+    height: 170px;
+    font-family: Helvetica;
+    font-size: 70px;
+    text-align: center;
+    align-self: center;
+    order: 2;
+}
+.two {
+    background-color: rgb(249, 46, 10);
+    width: 129px;
+    height: 129px;
+    font-family: Helvetica;
+    font-size: 70px;
+    text-align: center;
+    order: 3;
+    /* align-self: center; */
+}
+.three {
+    background-color: rgb(173, 67, 67);
+    width: 157px;
+    height: 157px;
+    font-family: Helvetica;
+    font-size: 70px;
+    text-align: center;
+   align-self: flex-end;
+}
+.four {
+    background-color: rgb(239, 36, 22);
+    width: 124px;
+    height: 124px;
+    font-family: Helvetica;
+    font-size: 70px;
+    text-align: center;
+    order: 1;
+    align-self: center;
+}
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+a {
+    color: aqua;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+.flex-nav ul {
+    list-style: none;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+}
+a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+section, footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+    font-family: 100;
+}
+.flex-nav li {
+    flex: 3;
+}
+.flex-nav .social {
+    flex: 1;
+}
+.toggleNav {
+    display: none;
+}
+@media all and (max-width: 1000px) {
+    .flex-nav ul {
+        flex-wrap: wrap;
+    }
+    .flex-nav li {
+        flex: 1 1 50%;
+    }
+    .flex-nav .social {
+        flex: 1 1 25%;
+    }
+}
+@media all and (max-width: 500px) {
+    .flex-nav ul {
+        flex-basis: 100%;
+    }
+    .toggleNav {
+        display: block;
+    }
+    .flex-nav ul {
+        display: none;
+    }
+    .flex-nav ul.open{
+        display: flex;
+    }
+}
